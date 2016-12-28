@@ -129,8 +129,9 @@ You should not put any user code in there besides modifying the variable
 values."
   ;; This setq-default sexp is an exhaustive list of all the supported
   ;; spacemacs settings.
-  (setq url-gateway-method 'socks)
-  (setq socks-server '("Default server" "127.0.0.1" 1080 5))
+  ;; proxysettings
+  ;;(setq url-gateway-method 'socks)
+  ;;(setq socks-server '("Default server" "127.0.0.1" 1080 5))
   (setq-default
    ;; If non nil ELPA repositories are contacted via HTTPS whenever it's
    ;; possible. Set it to nil if you have no way to use HTTPS in your
